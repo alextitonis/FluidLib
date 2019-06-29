@@ -1,0 +1,6 @@
+C:\Users\user1\source\repos\Multiplayer Game Library\Multiplayer Game Library\obj\Debug\Multiplayer Game Library.csprojAssemblyReference.cache
+C:\Users\user1\source\repos\Multiplayer Game Library\Multiplayer Game Library\obj\Debug\Multiplayer Game Library.csproj.CoreCompileInputs.cache
+C:\Users\user1\source\repos\Multiplayer Game Library\Multiplayer Game Library\bin\Debug\Multiplayer Game Library.dll
+C:\Users\user1\source\repos\Multiplayer Game Library\Multiplayer Game Library\bin\Debug\Multiplayer Game Library.pdb
+C:\Users\user1\source\repos\Multiplayer Game Library\Multiplayer Game Library\obj\Debug\Multiplayer Game Library.dll
+C:\Users\user1\source\repos\Multiplayer Game Library\Multiplayer Game Library\obj\Debug\Multiplayer Game Library.pdb
