@@ -6,3 +6,5 @@ Currently it includes:
  * A byte Writer/Reader
  * A Logger
  * Some simple point checkers (3D and 2D)
+ 
+For more info join our Discortd! https://discord.gg/PuVsMQV
