@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Physics
+namespace FluidLib.Physics
 {
     #region 3D
     public class Box

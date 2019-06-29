@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FluidLib.Utils;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -7,9 +8,9 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using static Multiplayer_Game_Library.TCP_Server;
+using static FluidLib.Networking.TCP_Server;
 
-namespace Multiplayer_Game_Library
+namespace FluidLib.Networking
 {
     public delegate void tcp_clientConnected(Client client);
     public delegate void clockTick();

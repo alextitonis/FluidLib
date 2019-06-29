@@ -7,7 +7,7 @@
     <ProjectGuid>{C04D667E-5257-4EC2-8FF0-54F7D84C7381}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Fluid_Lib</RootNamespace>
+    <RootNamespace>FluidLib</RootNamespace>
     <AssemblyName>FluidLib</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Utils\Cryptography.cs" />
     <Compile Include="Physics\PointChecker.cs" />
     <Compile Include="Physics\Shapes.cs" />
     <Compile Include="Utils\Reader.cs" />

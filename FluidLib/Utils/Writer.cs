@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace Multiplayer_Game_Library
+namespace FluidLib.Utils
 {
     public class Writer
     {

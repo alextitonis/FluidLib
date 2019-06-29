@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FluidLib.Utils;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -6,7 +7,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Multiplayer_Game_Library
+namespace FluidLib.Networking
 {
     public delegate void tcp_receive(Reader reader, byte PacketID);
     
