@@ -1,13 +1,9 @@
 ﻿using FluidLib.Utils;
 using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Net;
 using System.Net.Sockets;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using static FluidLib.Networking.TCP_Server;
 
 namespace FluidLib.Networking
@@ -119,10 +115,10 @@ namespace FluidLib.Networking
         {
             TcpClient _client = socket.EndAcceptTcpClient(_result);
             _client.NoDelay = false;
-
-            string _id = Utils.GenerateRandomString(4);
+            
+            string _id = Utils.Utils.GenerateRandomString(4);
             while (idExists(_id))
-                _id = Utils.GenerateRandomString(4);
+                _id = Utils.Utils.GenerateRandomString(4);
 
             Client client = new Client(_id, _client);
             clients.Add(client);
@@ -163,14 +159,6 @@ namespace FluidLib.Networking
             {
                 if (client == null)
                     return;
-
-                //      byte[] data = writer.ToArray();
-
-                //      writer = new Writer();
-                //      writer.Write(data.GetUpperBound(0) - data.GetLowerBound(0) + 1);
-
-                //      writer.Write(data);
-                //      writer.Write(PacketID);
 
                 byte[] data = writer.ToArray();
 

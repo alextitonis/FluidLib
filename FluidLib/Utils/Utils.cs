@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +15,13 @@ namespace FluidLib.Utils
 
             return new string(Enumerable.Repeat(chars, length)
               .Select(s => s[rnd.Next(s.Length)]).ToArray());
+        }
+
+        public static void Swap(ref object obj1, ref object obj2)
+        {
+            object temp = obj1;
+            obj1 = obj2;
+            obj2 = temp;
         }
     }
 }

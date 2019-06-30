@@ -49,7 +49,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Multiplayer Game Library\FluidLib.csproj">
+    <ProjectReference Include="..\FluidLib\FluidLib.csproj">
       <Project>{c04d667e-5257-4ec2-8ff0-54f7d84c7381}</Project>
       <Name>FluidLib</Name>
     </ProjectReference>

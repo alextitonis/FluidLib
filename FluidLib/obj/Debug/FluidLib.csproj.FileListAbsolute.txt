@@ -1,0 +1,6 @@
+C:\Users\user1\Projects\C#\FluidLib\FluidLib\bin\Debug\FluidLib.dll
+C:\Users\user1\Projects\C#\FluidLib\FluidLib\bin\Debug\FluidLib.pdb
+C:\Users\user1\Projects\C#\FluidLib\FluidLib\obj\Debug\FluidLib.csprojAssemblyReference.cache
+C:\Users\user1\Projects\C#\FluidLib\FluidLib\obj\Debug\FluidLib.csproj.CoreCompileInputs.cache
+C:\Users\user1\Projects\C#\FluidLib\FluidLib\obj\Debug\FluidLib.dll
+C:\Users\user1\Projects\C#\FluidLib\FluidLib\obj\Debug\FluidLib.pdb

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace FluidLib.Networking
@@ -55,10 +56,6 @@ namespace FluidLib.Networking
         {
             byte[] data = writer.ToArray();
 
-            //  writer = new Writer();
-            // writer.Write(data.GetUpperBound(0) - data.GetLowerBound(0));
-            //  writer.Write(data);
-
             writer = new Writer();
             writer.Write(PacketID);
             writer.Write(data);
@@ -69,7 +66,6 @@ namespace FluidLib.Networking
 
         void Receive(IAsyncResult _result)
         {
-            Console.WriteLine("Got Data!");
             try
             {
                 int length = stream.EndRead(_result);
