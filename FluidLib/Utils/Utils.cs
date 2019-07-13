@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -22,6 +23,23 @@ namespace FluidLib.Utils
             object temp = obj1;
             obj1 = obj2;
             obj2 = temp;
+        }
+
+        public static PhysicalAddress GetLocalMacAddress()
+        {
+            foreach (NetworkInterface nic in NetworkInterface.GetAllNetworkInterfaces())
+            {
+                if (nic.NetworkInterfaceType == NetworkInterfaceType.Ethernet &&
+                    nic.OperationalStatus == OperationalStatus.Up)
+                {
+                    return nic.GetPhysicalAddress();
+                }
+            }
+            return null;
+        }
+        public static string GetLocalMacAddressToString()
+        {
+            return GetLocalMacAddress().ToString();
         }
     }
 }
